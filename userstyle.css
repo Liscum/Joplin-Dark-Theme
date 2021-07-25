@@ -1,0 +1,33 @@
+:root {
+    --grey: #252525;
+    --black: #161616;
+    --myblue: #494949;
+
+    --base-size-1: 1px;
+    --base-size-13: 13px;
+
+    --font-weight-bold: 550;
+    --font-sans: "Hack Nerd Font";
+    --font-line-height: 1.4em;
+    --font-size: var(--base-size-13);
+}
+
+body, code {
+    font-family: var(--font-sans) !important;
+    font-weight: var(--font-weight-bold) !important;
+    font-size: var(--font-size) !important;
+    line-height: var(--font-line-height) !important;
+}
+
+body {
+    background-color: var(--grey) !important;
+    padding: 3px 0;
+}
+
+pre.hljs {
+    background-color: var(--black) !important;
+}
+
+h1, h2, h3 {
+    color: #a3cef1 !important;
+}
