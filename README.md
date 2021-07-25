@@ -4,8 +4,8 @@ This is a theme I made for Joplin that has been tested and developped on Joplin 
 
 The theme has been made for my use case so not all markdown syntax is overriden by the theme as I don't use them (but Joplin default style will apply).
 
-<img src="https://raw.githubusercontent.com/Liscum/Joplin-Dark-Theme/main/images/image1.png?raw=true" align="left" />
 
+![Theme picture](images/image1.png)
 
 
 
