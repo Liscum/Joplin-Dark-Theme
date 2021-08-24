@@ -31,3 +31,7 @@ pre.hljs {
 h1, h2, h3 {
     color: #a3cef1 !important;
 }
+
+#rendered-md {
+    max-width: none !important;
+}
