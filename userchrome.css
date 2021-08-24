@@ -157,9 +157,14 @@
 /* Editor background color */
 .CodeMirror-scroll {
     background-color: var(--light-grey-1) !important;
-    padding-left: 2px;
     font-weight: var(--font-weight-bold) !important;
+}
 
+/* Remove useless margin in editor introduced by Joplin */
+div.CodeMirror-sizer {
+    max-width: none !important;
+
+    padding-left: 2px !important;
 }
 
 /* Editor header color */
@@ -167,7 +172,7 @@ span.cm-header {
     color: #a3cef1 !important;
 }
 
-/* Colors of block comments in editor */
+/* Editor text colors of code block */
 pre.CodeMirror-line span[role="presentation"] span.cm-comment {
     color: #8b8c89 !important;
 }
@@ -175,8 +180,13 @@ pre.CodeMirror-line span[role="presentation"] span.cm-comment {
 /* Editor simple text color */
 pre.CodeMirror-line span:not([class]), span[class=""] {
     color: #dddddd !important;
+    background-color: var(--light-grey-1) !important;
 }
 
+/* Editor background color of block code */
+div.cm-jn-code-block {
+    background-color: var(--light-grey-1) !important;
+}
 
 /* Variables (starting with - or *) */
 pre.CodeMirror-line span[role="presentation"] span.cm-variable-2 {
