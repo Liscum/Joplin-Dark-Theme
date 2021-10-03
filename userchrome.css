@@ -2,14 +2,13 @@
     --dark-grey: #161616;
     --light-grey-1: #252525;
     --light-grey-2: #494949;
-
-    --base-size-1: 1px;
-    --base-size-13: 13px;
+    --light-grey-3: #898989;
+    --light-blue: #A3CEF1;
 
     --font-weight-bold: 550;
     --font-sans: "Hack Nerd Font";
     --font-line-height: 1.4em;
-    --font-size: var(--base-size-13);
+    --font-size: 13px;
 }
 
 
@@ -96,18 +95,18 @@
 }
 
 /* Color behind search input and new note/task */
-.rli-noteList>div>div>div:first-child {
+.rli-noteList>div>div>div {
     background-color: var(--dark-grey) !important;
 }
 
 /* Search bar input focus */
 .search-bar>div>input:focus {
-    border: var(--base-size-1) solid #EDEDED !important;
+    border: 1px solid #EDEDED !important;
 }
 
 /* Search icon in search bar */
 .icon-search {
-    color: #dddddd !important;
+    color: #DDDDDD !important;
 }
 
 /* Middle note list buttons icon color */
@@ -122,7 +121,7 @@
 
 /* Middle note list hovered buttons background color */
 .new-todo-button:hover, .new-note-button:hover {
-    background-color: #898989 !important;
+    background-color: var(--light-grey-3) !important;
 }
 
 /* Border on the right of the search bar in the middle note list */
@@ -168,12 +167,12 @@ div.CodeMirror-sizer {
 
 /* Editor header color */
 span.cm-header {
-    color: #a3cef1 !important;
+    color: var(--light-blue) !important;
 }
 
-/* Editor text color */
-div.CodeMirror span.cm-comment {
-    color: #8b8c89 !important;
+/* Code block text color */
+span.cm-comment.cm-jn-monospace {
+    color: var(--light-grey-3) !important;
 }
 
 /* Code block background color */
@@ -183,7 +182,7 @@ div.CodeMirror span.cm-comment {
 
 /* Variables (starting with - or *) */
 pre.CodeMirror-line span[role="presentation"] span.cm-variable-2 {
-    color: #e7ecef !important;
+    color: #E7ECEF !important;
 }
 
 /* ######################*/

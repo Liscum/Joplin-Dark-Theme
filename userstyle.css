@@ -1,16 +1,15 @@
 :root {
-    --grey: #252525;
-    --black: #161616;
-    --myblue: #494949;
-
-    --base-size-1: 1px;
-    --base-size-13: 13px;
+    --dark-grey: #161616;
+    --light-grey-1: #252525;
+    --light-grey-2: #494949;
+    --light-blue: #A3CEF1;
 
     --font-weight-bold: 550;
     --font-sans: "Hack Nerd Font";
     --font-line-height: 1.4em;
-    --font-size: var(--base-size-13);
+    --font-size: 13px;
 }
+
 
 body, code {
     font-family: var(--font-sans) !important;
@@ -20,16 +19,17 @@ body, code {
 }
 
 body {
-    background-color: var(--grey) !important;
+    background-color: var(--light-grey-1) !important;
     padding: 3px 0;
 }
 
 pre.hljs {
-    background-color: var(--black) !important;
+    background-color: var(--dark-grey) !important;
+    padding: 3px;
 }
 
 h1, h2, h3 {
-    color: #a3cef1 !important;
+    color: var(--light-blue) !important;
 }
 
 #rendered-md {
