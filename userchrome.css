@@ -67,6 +67,11 @@
     background-color: var(--light-grey-1) !important;
 }
 
+/* Left sidebar folders size */
+.list-item-depth-0, .list-item-depth-1, .list-item-depth-2, .list-item-depth-3 {
+    height: 24px !important;
+}
+
 /* ######################*/
 
 
@@ -99,9 +104,15 @@
     background-color: var(--dark-grey) !important;
 }
 
+/* Search bar input background color */
+.search-bar>div>input {
+    background-color: var(--dark-grey) !important;
+}
+
 /* Search bar input focus */
 .search-bar>div>input:focus {
     border: 1px solid #EDEDED !important;
+    background-color: var(--dark-grey) !important;
 }
 
 /* Search icon in search bar */
@@ -110,17 +121,17 @@
 }
 
 /* Middle note list buttons icon color */
-.new-todo-button>span, .new-note-button>span {
+.new-todo-button>span, .new-note-button>span, .sort-order-field-button>span, .sort-order-reverse-button>span {
     color: white !important;
 }
 
 /* Middle note list buttons background color */
-.new-todo-button, .new-note-button {
+.new-todo-button, .new-note-button, .sort-order-field-button, .sort-order-reverse-button {
     background-color: #636363 !important;
 }
 
 /* Middle note list hovered buttons background color */
-.new-todo-button:hover, .new-note-button:hover {
+.new-todo-button:hover, .new-note-button:hover, .sort-order-field-button:hover, .sort-order-reverse-button:hover {
     background-color: var(--light-grey-3) !important;
 }
 
