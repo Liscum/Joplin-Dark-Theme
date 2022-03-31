@@ -63,7 +63,7 @@
 }
 
 /* Bar between left sidebar and middle note list */
-.rli-sideBar>span>div {
+.rli-sideBar>div:nth-child(2)>div {
     background-color: var(--light-grey-1) !important;
 }
 
